@@ -1,4 +1,4 @@
-import { PATH_DB } from "../constants/contacts";
+import { PATH_DB } from "../constants/contacts.js";
 import * as fs from 'node:fs/promises';
 
 

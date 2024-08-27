@@ -7,5 +7,11 @@ const getAllContacts = async () => {
 
 };
 export default getAllContacts;
-console.log(await getAllContacts());
+
+const logContacts = async () => {
+    const contacts = await getAllContacts();
+    console.log(contacts);
+};
+
+logContacts();
 
